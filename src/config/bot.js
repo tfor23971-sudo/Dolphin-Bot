@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Dolphinsmp.de",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -56,9 +56,23 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
+      { question: " What is your discord username + Minecraft username?", required: true },
       { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "How many hours can you be on the server per day? (discord and Minecraft) 
+?", required: true },
+         question: "Do you have a working microphone and are you willing to use it? 
+", required: true },
+       question: "How old are you??", required: true },
+   question: Two players are arguing and it is escalating in chat. What steps do you take?", required: true },
+   { question: "You catch a player using a hacked client. How do you handle it?
+", required: true },
+   { question: ". A player messages you claiming a staff member is abusing their permissions. What do you do?
+", required: true },
+   { question: "You are unsure whether a player's action violates the rules. How do you proceed?", required: true },
+   { question: "Are you able to stay calm and professional in stressful situations?", required: true },
+   { question: " Are you gonna follow the staff guide and work according to it if you get accepted?
+", required: true },
+   { question: "HDo you understand that inactivity = demotion?", required: true },
     ],
 
     // Embed colors by application status.
